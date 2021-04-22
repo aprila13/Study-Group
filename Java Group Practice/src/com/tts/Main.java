@@ -61,18 +61,17 @@ public class Main {
 //            System.out.println(people);
 //        }
 
-//        Devices iPhone = new Devices("iPhone", "Apple", "Cell Phone", 800);
+        Devices iPhone = new Devices("iPhone", "Apple", "Cell Phone", 800);
 //        System.out.println(iPhone);//won't print entire object
 //        System.out.println(iPhone.name); //iPhone
-//
+////
 //        iPhone.setName("Samsung"); //Using getters and setters
 //        System.out.println(iPhone.getName());
+        iPhone.calling();
     }
 }
 
 
 
-
-
-
+//System.out.println(Arrays.toString(myGroup));
 

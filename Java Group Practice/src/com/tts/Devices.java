@@ -1,8 +1,9 @@
 package com.tts;
 
 //com.tts.Devices is the class
+
 public class Devices {
-        String name; //These are instance variables
+        String name; //These are instance variables/fields/members
         String company;
         String type;
         int cost;
@@ -14,17 +15,22 @@ public class Devices {
         this.type = type;
         this.cost = cost;
     }
+//
+//
+    //Method
+    public void calling() {
+       System.out.print("Someone is calling");
+    }
 
-
-    //Getters + Setters
+//    //Getters + Setters
     public String getName() {
         return name;
     }
-
+//
     public void setName(String name) {
         this.name = name;
     }
-
+//
     public String getCompany() {
         return company;
     }
