@@ -2,6 +2,7 @@ package com.tts;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
@@ -61,13 +62,21 @@ public class Main {
 //            System.out.println(people);
 //        }
 
-        Devices iPhone = new Devices("iPhone", "Apple", "Cell Phone", 800);
+//        Devices iPhone = new Devices("iPhone", "Apple", "Cell Phone", 800);
 //        System.out.println(iPhone);//won't print entire object
 //        System.out.println(iPhone.name); //iPhone
 ////
 //        iPhone.setName("Samsung"); //Using getters and setters
 //        System.out.println(iPhone.getName());
-        iPhone.calling();
+//        iPhone.calling();
+
+        //Scanner
+//       //Scanner yourVarName = new Scanner(System.in);
+////      String inputStoredHere = yourVarName.nextLine();
+//        Scanner scanVariable1 = new Scanner(System.in);
+//        System.out.println("write here:");
+//        String theirInputGoesHere = scanVariable1.nextLine();
+//        System.out.println("They wrote: " + theirInputGoesHere);
     }
 }
 
